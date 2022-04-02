@@ -62,8 +62,7 @@ white: #FFFFFF
     display: flex;
     flex-direction: row;
     padding-left: 15px;
-    margin: auto 0 ;
-    /* margin-right: 25px; */
+    margin: auto 0;
 }
 
 div .left-pane{
@@ -99,10 +98,8 @@ div .left-pane{
 
 
 .right-pane {
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: row;
-    /* float: right; */
     margin-right: 0px;
 }
 
@@ -153,4 +150,60 @@ div .left-pane{
     border-color:#d1cfcf;
     border-radius: 10px;
     padding-left: 5px;
+}
+
+
+/* Styling for the main body */
+.main-body {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.body-header{
+    width: 100%;
+    border: 2px solid;
+    border-color: #3c3f45;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px; 
+}
+
+h3 {
+    color: #1881be;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.movie-pane {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.movie {
+    position: relative;
+}
+
+.movie-preview-img {
+    height: 100%;
+    width: 100%;
+    display: relative;
+    border-radius: 15px;
+}
+
+.tag {
+    position: absolute;
+    background-color: #1881be;
+    width: 70px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
 }
