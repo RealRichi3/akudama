@@ -24,7 +24,8 @@ white: #FFFFFF
 
 /* Styling for the header */
 .header {
-    width: 95%;
+    width: 94%;
+    position: relative;
     background: #FFFFFF;
     margin: 0 auto;
     height: 50px;
@@ -47,20 +48,27 @@ white: #FFFFFF
 }
 
 .nav-bar {
+    /* flex: 1; */
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    margin: auto;
+    /* align-items: stretch; */
+    /* padding: 5px; */
 }
 
 .nav-bar div{
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
+    padding-left: 15px;
     margin: auto 0 ;
+    /* margin-right: 25px; */
 }
 
+div .left-pane{
+    margin-right: 40px;
+}
 .left-pane div{
     margin-right: 10px;
 }
@@ -87,4 +95,62 @@ white: #FFFFFF
     font-size: 12px;
     color: #27292D;
     font-weight: bold;
+}
+
+
+.right-pane {
+    /* margin-left: 100px; */
+    display: flex;
+    flex-direction: row;
+    /* float: right; */
+    margin-right: 0px;
+}
+
+.follow-shuffle-brightness .icon{
+    height: 10px;
+    width: 10px;
+}
+
+.follow-shuffle-brightness p{
+    color: #27292D;
+    font-size: 11px;
+    
+}
+
+.right-pane img{
+    margin: auto;
+    margin-right: 10px;
+}
+
+.follow-shuffle-brightness div{
+    margin-right: 15px;
+}
+
+#follow {
+    margin-right: 3px;
+}
+
+.search-bar {
+    flex: 1;
+    border: 1px solid;
+    border-color: #d1cfcf;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    height: 50px;
+    padding: 13px;
+    /* width: 300px; */
+}
+
+.search-bar *{
+    margin-right: 10px;
+}
+
+#search {
+    width: 160px;
+    font-size: 12px;
+    border: 0;
+    border-color:#d1cfcf;
+    border-radius: 10px;
+    padding-left: 5px;
 }
