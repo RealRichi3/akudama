@@ -146,12 +146,17 @@ div .left-pane{
 #search {
     width: 160px;
     font-size: 12px;
-    border: 0;
+    border: 0px;
+    outline: none;
+    color: #a2a2a2
+}
+
+#search:hover{
+    border: 1px solid;
     border-color:#d1cfcf;
     border-radius: 10px;
     padding-left: 5px;
 }
-
 
 /* Styling for the main body */
 .main-body {
@@ -167,12 +172,12 @@ div .left-pane{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
 }
 
 h3 {
     color: #1881be;
-    margin: 5px;
+    margin: 15px;
     margin-left: 20px;
 }
 
@@ -199,11 +204,51 @@ h3 {
 .tag {
     position: absolute;
     background-color: #1881be;
-    width: 70px;
     height: 20px;
     top: 15px;
     left: 15px;
     border-radius: 10px;
     border: 0;
     color: white;
+    padding: 0 20px;
+}
+
+.rating-container {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: #1881be;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.release-date-title {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    padding-right: 10px;
+}
+
+
+.release-date-title p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.date {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 150%;
 }
