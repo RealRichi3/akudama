@@ -1,3 +1,4 @@
 # akudama
 
-My personal Web Portfolio, showing my projects and blog posts
+Design and implementation of Movie streaming webpage
+
